@@ -8,13 +8,9 @@
 
 <script>
 
-import Vue from 'vue';
+
 export default {
-	created(){
-		Vue.prototype.$http.get('/aaa?_page=8').then(data=>{
-			alert(data.data.a);
-		})
-	}
+
 };
 </script>
 
