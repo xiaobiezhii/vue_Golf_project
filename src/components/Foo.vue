@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>我是Foo组件</h1>
+        <DatePicker/>
     </div>
 </template>
 
@@ -10,6 +11,6 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="less" scoped>
 
 </style>
